@@ -1,0 +1,27 @@
+{
+  "name": "crypto-fund-transfer",
+  "main": "build/index.js",
+  "devDependencies": {
+    "@swc/core": "^1.6.5",
+    "@swc/jest": "^0.2.36",
+    "@types/jest": "^29.5.12",
+    "@types/jest-when": "^3.5.5",
+    "@types/node": "^20.14.8",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.5.2"
+  },
+  "author": "abrahamosmonde",
+  "license": "UNLICENSED",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "test": "jest --silent=false --forceExit",
+    "retest": "jest --silent=false --forceExit --only-failures"
+  }
+}
