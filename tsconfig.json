@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "es2020"
-    ],
+    "lib": ["es2020"],
     "module": "commonjs",
     "target": "es2020",
     "esModuleInterop": true,
@@ -17,16 +15,12 @@
     "outDir": "build",
     "baseUrl": ".",
     "paths": {
-      "@app/*": [
-        "src/*"
-      ]
+      "@app/*": ["src/*"]
     }
   },
-  "include": [
-    "src/**/*.ts"
-  ],
+  "include": ["src/**/*.ts"],
   "exclude": [
-    "node_modules",
+    "node_modules"
     // "**/*.spec.ts",
     // "*/__mocks__/*",
     // "cdk.out"
