@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+# IDEA
+.vscode
+.idea
+# CDK assets
+.cdk.staging
+cdk.out
+# Secrets or not required files
+secrets/
+env.json
+.env.deploy
+.env
+default.env
+.make.env
+default.make.env
+.integrationtest.env
+*.log
+.circleci
+.devcontainer
+.github

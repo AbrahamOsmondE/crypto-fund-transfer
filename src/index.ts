@@ -36,8 +36,6 @@ const startServer = async () => {
     ],
   });
 
-  // TODO: Add error handler
-
   server.get(HEALTH_CHECK_PATH, { logLevel: "error" }, async (_req, reply) => {
     reply.send({ status: "UP" });
   });
